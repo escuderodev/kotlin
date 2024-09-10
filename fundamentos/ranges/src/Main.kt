@@ -36,4 +36,5 @@ fun main() {
     } else {
         print("Number $num not is present in range of 1 and 5.")
     }
+
 }
