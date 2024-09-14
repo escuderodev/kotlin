@@ -6,7 +6,6 @@ class ContaCorrente(agencia: String, numero: String): Conta(agencia = agencia, n
         super.saque(valor)
         val taxaDeSaque: Double = 5.00
         val valorARetirar: Double = valor + taxaDeSaque
-        println("valorARetirar R$ $valorARetirar")
 
         if (saldo >= valorARetirar) {
             saldo -= valorARetirar
